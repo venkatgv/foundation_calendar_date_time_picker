@@ -10,7 +10,9 @@ Add the following to your gemfile:
     gem 'foundation-datetime-picker-rails'
 
 Add the following directive to your Javascript manifest file (application.js):
+
     //= require foundation_datetime_picker
 
-Also add the following to your application.css:
-    //= require foundation_datetime_picker
+Also add the following to your CSS manifest file (application.css):
+
+    *= require foundation-datetime-picker
